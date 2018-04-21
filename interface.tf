@@ -1,3 +1,6 @@
+#Interface definition for our S3 remote state 
+#repository module definition
+
 variable "region" {
  default = "us-east-1"
  description = ""
