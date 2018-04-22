@@ -1,9 +1,6 @@
-#Interface definition for our S3 remote state 
-#repository module definition
-
 variable "region" {
- default = "us-east-1"
- description = ""
+ default = "eu-west-1"
+ description = "default region for bucket deployment"
 }
 
 variable "prefix" {
